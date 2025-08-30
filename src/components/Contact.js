@@ -91,7 +91,7 @@ const Contact = () => {
                           style={{
                             background: 'rgba(255, 255, 255, 0.15)',
                             border: '1px solid rgba(255, 255, 255, 0.3)',
-                            color: 'white',
+                            color: 'var(--text-color)',
                             backdropFilter: 'blur(10px)'
                           }}
                         />
@@ -104,7 +104,7 @@ const Contact = () => {
                           style={{
                             background: 'rgba(255, 255, 255, 0.15)',
                             border: '1px solid rgba(255, 255, 255, 0.3)',
-                            color: 'white',
+                            color: 'var(--text-color)',
                             backdropFilter: 'blur(10px)'
                           }}
                         />
@@ -118,7 +118,7 @@ const Contact = () => {
                         style={{
                           background: 'rgba(255, 255, 255, 0.15)',
                           border: '1px solid rgba(255, 255, 255, 0.3)',
-                          color: 'white',
+                          color: 'var(--text-color)',
                           backdropFilter: 'blur(10px)'
                         }}
                       ></textarea>
@@ -126,8 +126,7 @@ const Contact = () => {
                     <button
                       type="button"
                       onClick={() => alert('This is a demo form. Please use the contact links above to reach out!')}
-                      className="btn btn-light w-100 fw-semibold text-primary py-3"
-                      style={{background: 'rgba(255, 255, 255, 0.9)', border: 'none'}}
+                      className="btn w-100 fw-semibold py-3 btn-demo"
                     >
                       Send Message (Demo)
                     </button>
