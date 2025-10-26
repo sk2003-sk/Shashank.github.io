@@ -10,14 +10,14 @@ const About = () => {
     });
   }, []);
   const skills = {
-    languages: ['HTML', 'CSS', 'JavaScript', 'SQL', 'C#'],
-    
-    frameworksAndLibraries: ['Bootstrap', 'Tailwind CSS', 'Angular', 'React', 'React Native', 'Node.js', 'Express.js', 'ADO.NET'],
-    
+    languages: ['HTML', 'CSS', 'JavaScript', 'SQL'],
+
+    frameworksAndLibraries: ['Bootstrap', 'Tailwind CSS', 'React.js', 'Node.js'],
+
     databases: ['SQL Server', 'MySQL', 'MongoDB'],
-    
-    tools: ['Visual Studio Code', 'IntelliJ IDEA', 'Jira', 'Git', 'GitHub', 'Postman', 'Swagger'],
-    
+
+    tools: ['Visual Studio Code', 'Git', 'GitHub', 'Postman',],
+
     softSkills: [
       'Time Management',
       'Excellent Communication',
@@ -26,14 +26,14 @@ const About = () => {
       'Team Collaboration'
     ]
   };
-  
+
 
   return (
     <section id="about" className="full-page-section bg-white page-transition" data-aos="fade-up">
       <div className="container">
         <div className="text-center mb-5" data-aos="fade-down">
           <h2 className="display-4 fw-bold text-dark mb-3">About Me</h2>
-          <div className="bg-primary mx-auto section-title-underline" style={{width: '80px', height: '4px'}}></div>
+          <div className="bg-primary mx-auto section-title-underline" style={{ width: '80px', height: '4px' }}></div>
         </div>
 
         <div className="row g-5 align-items-center">
@@ -44,18 +44,18 @@ const About = () => {
                 <h4 className="fw-semibold text-primary">Bachelor of Technology</h4>
                 <p className="text-muted mb-1">Computer Science and Engineering</p>
                 <p className="text-muted mb-1">Siddharth Institute of Engineering and Technology</p>
-                <p className="text-muted mb-0">June 2018 - May 2022 | GPA: 7.67</p>
+                <p className="text-muted mb-0">December 2021 - April 2025 | GPA: 8.07</p>
               </div>
             </div>
             <p className="text-muted lead">
-              I'm a passionate Software Engineer with experience in both frontend and backend development. 
+              I'm a passionate Software Engineer with experience in  frontend development.
               I love creating user-friendly applications and solving complex problems with innovative solutions.
             </p>
           </div>
 
           <div className="col-lg-6" data-aos="fade-left">
             <h3 className="h2 fw-semibold mb-4 text-dark">Technical Skills</h3>
-            
+
             <div className="mb-4">
               <h4 className="fw-semibold mb-3 text-primary">Languages</h4>
               <div className="d-flex flex-wrap gap-2">

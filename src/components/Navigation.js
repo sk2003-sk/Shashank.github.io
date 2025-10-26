@@ -21,29 +21,28 @@ const Navigation = ({ activeSection, scrollToSection }) => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top shadow-sm" style={{backdropFilter: 'blur(10px)'}}>
+    <nav className="navbar navbar-expand-lg fixed-top shadow-sm" style={{ backdropFilter: 'blur(10px)' }}>
       <div className="container">
-        <span className="navbar-brand fw-bold fs-3" style={{background: 'linear-gradient(45deg, #667eea, #764ba2)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>Bhaskar Manoj</span>
-        
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
+        <span className="navbar-brand fw-bold fs-3" style={{ background: 'linear-gradient(45deg, #667eea, #764ba2)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Sashank</span>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        
+
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto align-items-lg-center">
-            {['home', 'about', 'experience', 'projects', 'certifications', 'contact'].map((section) => (
+            {['home', 'about', 'contact'].map((section) => (
               <li key={section} className="nav-item position-relative">
                 <button
                   onClick={() => scrollToSection(section)}
-                  className={`nav-link btn btn-link text-capitalize fw-medium border-0 ${
-                    activeSection === section ? 'active' : ''
-                  }`}
-                  style={{textDecoration: 'none'}}
+                  className={`nav-link btn btn-link text-capitalize fw-medium border-0 ${activeSection === section ? 'active' : ''
+                    }`}
+                  style={{ textDecoration: 'none' }}
                 >
                   {section}
                 </button>

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row align-items-center">
           {/* Left side */}
           <div className="col-md-6 text-center text-md-start">
-            <p className="mb-0">© 2025 Bhaskar Manoj. All rights reserved.</p>
+            <p className="mb-0">© 2025 Sashank . All rights reserved.</p>
             <small style={{ color: 'var(--muted-text)' }}>
               Built with React &amp; Bootstrap
             </small>
@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="col-md-6 text-center text-md-end">
             <div className="d-flex justify-content-center justify-content-md-end gap-3">
               <a
-                href="https://linkedin.com/in/manoj-bhaskar-99b842234/"
+                href="https://www.linkedin.com/in/b-sashank/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: 'var(--text-color)' }}
@@ -30,7 +30,7 @@ const Footer = () => {
                 <i className="fab fa-linkedin fs-4"></i>
               </a>
               <a
-                href="https://github.com/Manoj584"
+                href="https://github.com/sk2003-sk"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: 'var(--text-color)' }}
@@ -40,7 +40,7 @@ const Footer = () => {
                 <i className="fab fa-github fs-4"></i>
               </a>
               <a
-                href="mailto:manojbhaskar01234@gmail.com"
+                href="mailto:sashank200305@gmail.com"
                 style={{ color: 'var(--text-color)' }}
                 className="social-btn"
                 aria-label="Send email"

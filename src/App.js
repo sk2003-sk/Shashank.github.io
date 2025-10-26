@@ -11,9 +11,6 @@ import {
   Navigation,
   Home,
   About,
-  Experience,
-  Projects,
-  Certifications,
   Contact,
   Footer
 } from './components';
@@ -36,7 +33,7 @@ function App() {
         if (section) {
           const sectionTop = section.offsetTop;
           const sectionHeight = section.offsetHeight;
-          
+
           if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
             setActiveSection(sections[i]);
             break;
@@ -60,9 +57,6 @@ function App() {
       <Navigation activeSection={activeSection} scrollToSection={scrollToSection} />
       <Home scrollToSection={scrollToSection} />
       <About />
-      <Experience />
-      <Projects />
-      <Certifications />
       <Contact />
       <Footer />
     </div>

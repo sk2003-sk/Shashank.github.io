@@ -1,4 +1,4 @@
-# Bhaskar Manoj - Portfolio Website
+# Sashank - Portfolio Website
 
 A modern, responsive portfolio website built with React.js showcasing my skills, experience, and projects as a Software Engineer and Full Stack Developer.
 
@@ -42,17 +42,20 @@ A modern, responsive portfolio website built with React.js showcasing my skills,
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd portfolio
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm start
 ```
@@ -96,7 +99,9 @@ portfolio/
 ## 🎨 Customization
 
 ### Personal Information
+
 Update the following in respective component files:
+
 - **Navigation.js**: Name in navbar
 - **Home.js**: Name, title, description, and social links
 - **About.js**: Education details and skills
@@ -107,18 +112,22 @@ Update the following in respective component files:
 - **Footer.js**: Footer content
 
 ### Styling
+
 Modify `src/App.css` to customize:
+
 - Color scheme
 - Animations
 - Typography
 - Layout spacing
 
 ### Profile Image
+
 Replace `public/MyImage.jpg` with your own profile image.
 
 ## 📱 Responsive Design
 
 The website is fully responsive and optimized for:
+
 - Desktop (1200px+)
 - Tablet (768px - 1199px)
 - Mobile (320px - 767px)
@@ -126,28 +135,33 @@ The website is fully responsive and optimized for:
 ## 🌟 Features in Detail
 
 ### Component Architecture
+
 - **Modular Design**: Each section is a separate React component
 - **Reusable Components**: Easy to maintain and update
 - **Clean Imports**: Centralized component exports via index.js
 - **Props Management**: Proper data flow between components
 
 ### Smooth Scrolling Navigation
+
 - Fixed navigation bar with backdrop blur
 - Active section highlighting
 - Smooth scroll behavior
 
 ### Interactive Elements
+
 - Hover effects on cards and buttons
 - Typing animation for the title
 - Fade-in animations for sections
 - Bounce animation for call-to-action buttons
 
 ### Contact Form
+
 - Styled form inputs with glassmorphism effect
 - Demo functionality with alert message
 - Responsive layout
 
 ### Skills Display
+
 - Organized by categories (Languages, Frameworks, Tools)
 - Color-coded badges
 - Hover effects
@@ -165,10 +179,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contact
 
-- **Email**: manojbhaskar01234@gmail.com
-- **LinkedIn**: [Bhaskar Manoj](https://linkedin.com/in/manoj-bhaskar-99b842234/)
-- **GitHub**: [Manoj584](https://github.com/Manoj584)
-- **Phone**: +91 8317557678
+- **Email**: sashank200305@gmail.com
+- **LinkedIn**: [Sashank](https://www.linkedin.com/in/b-sashank/)
+- **GitHub**: [sk2003-sk](https://github.com/sk2003-sk)
+- **Phone**: +91 9381998039
 
 ## 🙏 Acknowledgments
 
